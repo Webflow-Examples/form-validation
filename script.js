@@ -7,7 +7,7 @@ Webflow.push(function () {
     // return false if a condition is not met
     // optionally, show an error message
     if (nameInput.value.length < 3) {
-      formErrorMsg.textContent = "Name must be longer than 3 characters";
+      formErrorMsg.textContent = "Name must be 3 characters or longer";
       formErrorMsg.style.display = "block";
       return false;
     }
